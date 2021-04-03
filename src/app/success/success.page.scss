@@ -1,0 +1,26 @@
+ion-content{
+    --background: rgb(40, 187, 106);
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+ion-button{
+    margin: 0 auto;
+    width: 50%;
+    height: 43px;
+    --box-shadow: none;
+    --background: #24bee8;
+}
+
+.image{
+    position: absolute;
+    left: 23%;
+}
+
+ion-item{
+    --background: transparent;
+
+}

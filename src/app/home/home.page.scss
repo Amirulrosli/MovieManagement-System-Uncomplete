@@ -1,27 +1,172 @@
-#container {
-  text-align: center;
 
+
+mat-sidenav {
+  background-color: rgb(46, 46, 46);
+  width: 100px;
+}
+
+.mat-toolbar{
+  background-color: #026681;
+
+}
+mat-sidenav-container{
+  height: 100%
+}
+
+mat-sidenav{
+  padding:16px;
+}
+
+.nav-icon{
+
+  cursor: pointer;
+    margin-bottom: 38px;
+  mat-label{
+      font-size: 12px;
+      color: rgba(226, 226, 226, 0.288);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+  }
+
+  mat-icon{
+      color: rgba(226, 226, 226, 0.288);
+      margin-left: 32%;
+  }
+
+  ion-icon{
+      color: rgba(226, 226, 226, 0.288);
+      margin-left: 32%;
+      font-size: 25px;
+  }
+
+  
+}
+
+.nav-icon:hover{
+    ion-icon{
+      color: #00c8ff !important;
+    }
+
+    mat-label{
+      color: #00c8ff !important;
+    }
+
+    mat-icon{
+
+      color: #00c8ff !important;
+
+    }
+    
+}
+
+.toggle{
+    cursor: pointer;
+    color: white;
+    margin-left: -10px;
+
+}
+
+.titleTxt{
+    color: white;
+}
+
+.notification{
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 80px;
+  cursor: pointer;
+  color: white;
 }
 
-#container strong {
+.profile-pic{
+  position: absolute;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-active{
+  color: #00c8ff !important;
+}
+
+.searchbar{
+  width: 40%;
+  margin-left: 30px;
+ 
+}
+
+.search-logo{
+  position: absolute;
+  right: 130px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+ion-input{
+ --background: rgba(221, 221, 221, 0.26);
+ --padding-start: 10px;
+ border-radius: 5px;
+}
+
+ion-textarea{
+  --background: rgba(209, 207, 207, 0.26);
+  --padding-start: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.news{
+
+  ion-toolbar{
+    --background: transparent;
+    color: white;
+
+    ion-title{
+      margin-left: 20px;
+    }
+  }
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 38%;
+}
+
+ion-header{
+  --background: #026681;
+  ion-toolbar{
+    color: white;
+    --background: #026681;
+  }
+}
+
+
+ion-button{
+  margin-top:30px;
+  width: 100%;
+  height: 43px;
+  --background: #026681;
+}
+
+ion-list{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload{
   font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.warn{
+  font-size: 12px;
+  color: red;
 }
 
-#container a {
-  text-decoration: none;
-}
